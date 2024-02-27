@@ -1,0 +1,24 @@
+/* HSL */
+h1{
+    background-color: hsl(81, 28%, 29%)
+}
+/* PALABARA CLAVE */
+h2{
+    background-color: red;
+}
+/* RGB */
+p{
+    background-color: rgb(68, 56, 56);
+}
+/* CODIGOS HEXAGESIMALES */
+h3{
+    background-color: #ffff76;
+}
+/* VALORES RGBA */
+#distinto{
+    background-color: rgba(24, 25, 22, 0.85);
+}
+/* VALORES HSLA */
+.otro{
+    background-color: hsla(45, 85%,48%,0.25);
+}

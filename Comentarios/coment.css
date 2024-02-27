@@ -1,0 +1,33 @@
+/* SELECTORES POR ELEMENTO */
+h1 {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    background-color: red;
+}
+/*    SELECTORES DE ELEMENTOS CON UNA CLASE */
+
+h2.seccion3 {
+    color: yellow;
+}
+
+p.seccion1 {
+    background-color: green;
+}
+
+/* SELECTOR PARA ID */
+#diferentColor {
+    color: violet;
+}
+
+/* SELECTOR DE CLASE */
+.estilos-fuente-distinto {
+    font-family: Arial
+}
+
+/* SELECTOR DE CLASE COMBINADA */
+.seccion1.estilos-fuente-distinto {
+    text-align: end;
+}

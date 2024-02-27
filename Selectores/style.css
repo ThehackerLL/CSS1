@@ -1,0 +1,22 @@
+h1{ 
+    background-color: black;
+    color: white;
+   }
+   h2{ 
+    background-color: red;
+   }
+   h2.seccion3{
+    color: yellow;
+   }
+   p.seccion1{
+    background-color: green;
+   }
+   #diferentColor{
+    color: violet;
+   }
+   .estilos-fuente-distinto{
+    font-family:Arial
+   }
+   .seccion1.estilos-fuente-distinto{
+    text-align: end;
+   }
