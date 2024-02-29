@@ -1,0 +1,86 @@
+.dotted{
+    border-left-style: dotted;
+    border-left-color: blue;
+    border-left-width: 10px;
+}  
+.dashed{
+    border: dashed blue 8px;
+    border-radius: 25px;
+}
+.solid{
+    border-top-style: solid;
+    border-top-color: violet;
+    border-top-width: 15px;
+}
+.double{
+    border-top: double slategrey 6px;
+}
+.groove{
+    border-style: groove;
+    border-color: green;
+    border-width: 2px;
+}
+.ridge{
+    border-style: ridge;
+    border-color: black;
+    border-width: 3px;
+}
+.inset{
+    border-style: inset;
+    border-color: blue;
+    border-width: 5px;
+}
+.outset{
+    border-style: outset;
+    border-color: blue;
+    border-width: 5px;
+}
+.none{
+    border-style: none;
+    border-color: blue;
+    border-width: 5px;
+}
+.hidden{
+    border-style: hidden;
+    border-color: blue;
+    border-width: 5px;
+}
+.mix{
+    border-style: dotted dashed solid double;
+    border-color: blue;
+    border-width: 5px;
+}
+.luis{
+    border-style: dotted;
+}  
+.lumart{
+    border-style: dashed;
+}
+.flores{
+    border-style: solid;
+}
+.vasquez{
+    border-style: double;
+}
+.carlos{
+    border-style: groove;
+}
+.julinho{
+    border-style: ridge;
+}
+.fatima{
+    border-style: inset;
+}
+.yadhira{
+    border-style: outset;
+}
+.martha{
+    border-style: none;
+}
+.mariela{
+    border-style: hidden;
+}
+.alberto{
+    border-style: dotted dashed solid double;
+}
+
