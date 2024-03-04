@@ -15,8 +15,8 @@
 .box3{
     border: 4px double black;
     background-color: red;
-    color: brown;
-    height: 100px;
-    width: 100px;
+    color: black;
+    min-height: 100px;
+    max-width: 200px;
 }
 
