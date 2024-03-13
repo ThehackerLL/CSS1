@@ -1,0 +1,28 @@
+tr,td{
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+table,th{
+    border: 2px solid black;
+}
+.col-firts{
+    width: 20px;
+    border: 2px solid black;
+}
+th{
+    height: 50px;
+    background-color: slategrey;
+}
+tr:nth-child(even){
+    background-color: aqua;
+}
+tr:nth-child(odd){
+    background-color: aquamarine;
+}
+tr:hover{
+    background-color: red;
+}

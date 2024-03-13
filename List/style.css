@@ -1,0 +1,15 @@
+.todo{
+    list-style-type: lower-alpha;
+}
+
+.style{
+    background-color:blue;
+    padding: 20px;
+}
+.li{
+    color: white;
+    background-color: slategrey;
+    padding: 5px;
+    margin: 10px;
+    border: double 3px black;
+}
