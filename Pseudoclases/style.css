@@ -1,0 +1,14 @@
+
+a:link{
+    color: coral;
+    background-color:yellow;
+}
+
+a:hover{
+    color: black;
+    background-color:aqua;
+}
+
+a:active{
+    background-color: blue;
+}
