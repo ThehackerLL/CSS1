@@ -1,0 +1,12 @@
+h1::before{
+    content: url(assets/icons8-cat-64.png);
+}
+/* h1::after{
+    content: url(assets/icons8-cat-64.png);
+} */
+p::first-line{
+    color: red;
+}
+p.primerparrafo::first-letter{
+    font-size: 3em;
+}
