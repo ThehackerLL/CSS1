@@ -18,8 +18,8 @@
     border: 1px solid black;
 }
 .box1{
-    width: 100px;
-    height: 100px;
+    /* width: 100px;
+    height: 100px; */
     background-color: yellow;
     border: 1px solid black;
 }
@@ -32,8 +32,8 @@
     visibility: hidden;
 }
 .box3{
-    width: 100px;
-    height: 100px;
+    /* width: 100px;
+    height: 100px; */
     background-color: lightcoral;
     border: 1px solid black;
 }

@@ -1,6 +1,6 @@
 .container{
     border: 1px solid black;
-    bottom: 0;
-    right: 0;
+    top: 300px;
+    left: 250px;
     position:fixed;
 }

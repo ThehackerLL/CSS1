@@ -1,0 +1,26 @@
+.corazon {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .corazon::before,
+  .corazon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 10px;
+    height: 16px;
+    background-color: red;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .corazon::before {
+    transform: rotate(-45deg);
+  }
+  
+  .corazon::after {
+    transform: rotate(45deg);
+  }
