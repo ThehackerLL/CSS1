@@ -3,4 +3,5 @@ div{
     width: 300px;
     background-color: red;
     overflow: scroll;
+    overflow-x: hidden;
 }
