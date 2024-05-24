@@ -1,0 +1,18 @@
+div{
+    /* border: 2px hidden; */
+    width: 700px;
+}
+h1{
+    color: white;
+}
+body{
+    background-color: black;
+}
+img{
+    opacity: 0.5;
+    position: absolute;
+    top: 0%;
+}
+p{
+    color: white;
+}

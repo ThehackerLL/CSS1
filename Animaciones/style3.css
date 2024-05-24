@@ -1,0 +1,45 @@
+@keyframes square{
+    from{
+        background-color: red;
+        left: 0%;
+    }
+    to{
+        background-color: black;
+        left: 600px;   
+    }
+}
+.cuadradito{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: square 3s linear 10ms infinite alternate;
+}
+.cuadradito2{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: square 3s ease 10ms infinite alternate;
+}
+.cuadradito3{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: square 3s ease-in 10ms infinite alternate;
+}
+.cuadradito4{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: square 3s ease-in-out 10ms infinite alternate;
+}
+.cuadradito5{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: square 3s ease-out 10ms infinite alternate;
+}

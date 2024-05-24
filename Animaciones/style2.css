@@ -1,0 +1,40 @@
+.cuadradito{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* animation-name: square;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 10ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: square 5s ease-in-out 10ms infinite alternate;
+}
+@keyframes square {
+    0%{
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+    25%{
+        background-color: blue;
+        left: 200px;
+        top: 0px;
+    }
+    50%{
+        background-color: green;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: yellow;
+        left: 0;
+        top: 200px;
+    }
+    100%{
+        background-color: brown;
+        left: 0;
+        top: 0;
+    }
+}

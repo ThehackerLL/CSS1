@@ -1,0 +1,29 @@
+.contenedor{
+    overflow: auto;
+}
+
+.leftside{
+    float: none;
+    width: auto;
+}
+
+.texto{
+    position: absolute;
+    top: 0 ;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (min-width:545px){
+    
+    .leftside{
+        float: left;
+        width: 300px;
+    }
+    img{
+        width: 300px;
+    }
+    .texto{
+        position: static;
+        font-family: Arial, Helvetica, sans-serif;
+    }   
+}
