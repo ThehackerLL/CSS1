@@ -1,0 +1,77 @@
+.align-items{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.align-items > div {
+    background-color: rgb(27, 68, 68);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+    color: white;
+    
+}
+.align-items2{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    height: 250px;
+}
+.align-items2 > div {
+    background-color: rgb(27, 68, 68);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+.align-items3{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 250px;
+}
+.align-items3 > div {
+    background-color: rgb(27, 68, 68);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+.align-items4{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 250px;
+}
+.align-items4 > div {
+    background-color: rgb(27, 68, 68);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    /* height: 50px; */
+    color: white;
+    
+}

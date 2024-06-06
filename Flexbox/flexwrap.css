@@ -1,0 +1,47 @@
+.flex-no-wrap{
+    display: flex;
+    background-color: rgb(159, 255, 151);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 80px;
+}
+
+.flex-no-wrap > div{
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    color: white;
+}
+.flexwrap{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.flexwrap > div{
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    color: white;
+}
+.flexwrap-reverse{
+    display: flex;
+    background-color: rgb(226, 178, 107);
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.flexwrap-reverse > div{
+    background-color: rgb(27, 0, 124);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    color: white;
+}

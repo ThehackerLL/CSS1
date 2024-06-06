@@ -1,0 +1,52 @@
+.row{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: row;
+}
+.row > div {
+    background-color: rgb(27, 68, 68);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    color: white;
+}
+.row-reverse{
+    display: flex;
+    background-color: wheat;
+    flex-direction: row-reverse;
+}
+.row-reverse > div {
+    background-color: rgb(2, 3, 70);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    color: white;
+}
+.colum{
+    display: flex;
+    background-color: rgb(131, 150, 202);
+    flex-direction: column;
+}
+.colum > div {
+    background-color: rgb(59, 3, 3);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    color: white;
+}
+.colum-reverse{
+    display: flex;
+    background-color: rgb(168, 255, 127);
+    flex-direction: column-reverse;
+}
+.colum-reverse > div {
+    background-color: rgb(10, 10, 10);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    color: white;
+}

@@ -1,0 +1,95 @@
+.align-content{
+    display: flex;
+    background-color: aqua;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-content: flex-start; */
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.align-content > div {
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+.align-content > div:not(.distinta) {
+    width: 50px;
+    height: 50px;
+}
+.distinta{
+    width: 120px;
+    height: 120px;
+}
+.align-content2{
+    display: flex;
+    background-color: aqua;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.align-content2 > div {
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+.align-content2 > div:not(.distinto) {
+    width: 50px;
+    height: 50px;
+}
+.distinto{
+    width: 120px;
+    height: 120px;
+}
+.align-content3{
+    display: flex;
+    background-color: aqua;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.align-content3 > div {
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+.align-content3 > div:not(.distint) {
+    width: 50px;
+    height: 50px;
+}
+.distint{
+    width: 120px;
+    height: 120px;
+}
+.align-content4{
+    display: flex;
+    background-color: aqua;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 500px;
+}
+
+.align-content4 > div {
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+.align-content4 > div:not(.diferente) {
+    width: 50px;
+    /* height: 50px; */
+}
+.diferente{
+    width: 120px;
+    /* height: 120px; */
+}

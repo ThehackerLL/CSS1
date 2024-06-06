@@ -1,0 +1,105 @@
+.grid-container-start{
+    display: grid;
+    background-color: grey;
+    height: 720px;
+    margin-bottom: 20px;
+    grid-template-columns: 280px 120px 200px;
+    grid-template-rows: 100px 120px 100px;
+    align-content: start;
+}
+
+.grid-container-start > div{
+    background-color:green;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+.grid-container-end{
+    display: grid;
+    background-color: red;
+    height: 720px;
+    margin-bottom: 20px;
+    grid-template-columns: 280px 120px 200px;
+    grid-template-rows: 100px 120px 100px;
+    align-content: end;
+}
+
+.grid-container-end > div{
+    background-color:darkcyan;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+.grid-container-center{
+    display: grid;
+    background-color: blue;
+    height: 720px;
+    margin-bottom: 20px;
+    grid-template-columns: 280px 120px 200px;
+    grid-template-rows: 100px 120px 100px;
+    align-content: space-around;
+}
+
+.grid-container-center > div{
+    background-color:aqua;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+.grid-container-auto-px{
+    display: grid;
+    background-color: salmon;
+    height: 720px;
+    margin-bottom: 20px;
+    grid-template-columns: 280px 120px 200px;
+    grid-template-rows: 100px 120px 100px;
+    align-content: space-between;
+}
+
+.grid-container-auto-px > div{
+    color: white;
+    background-color:black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+.grid-container-auto-porcent{
+    display: grid;
+    background-color:saddlebrown;
+    height: 720px;
+    margin-bottom: 20px;
+    grid-template-columns: 280px 120px 200px;
+    grid-template-rows: 100px 120px 100px;
+    align-items: end;
+}
+
+.grid-container-auto-porcent > div{
+    color: white;
+    background-color:dodgerblue;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+.grid-container-auto-evenly{
+    display: grid;
+    background-color:sienna;
+    height: 720px;
+    grid-template-columns: 280px 120px 200px;
+    grid-template-rows: 100px 120px 100px;
+    align-items: start;
+}
+
+.grid-container-auto-evenly > div{
+    background-color:silver;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+/* .grid-container > div:not(.distinta) {
+    width: 50px;
+    height: 50px;
+} */
+/* .distinta{
+    width: 75px;
+    height: 75px;
+} */
